@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/appColor1"
+
+        >
+        <TextView
+            android:layout_marginLeft="24dp"
+            android:id="@+id/UserName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Usama Bin Waseem, "
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_marginLeft="2dp"
+            android:id="@+id/UserCity"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Gujrat"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@id/UserName"
+            android:gravity="center"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/profie"
+            android:layout_margin="8dp"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/white"
+            />
+
+    </RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    >
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="Blood Groups"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</LinearLayout>

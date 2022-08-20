@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hayatian Blood</string>
+    <string name="hint_for_phone"> <font size="12">TYPE YOUR PHONE</font></string>
+    <string name="hint_for_phone_number"> <font size="12">TYPE YOUR PHONE NUMBER</font></string>
+    <string name="hint_for_password"> <font size="12">TYPE YOUR PASSWORD</font></string>
+    <string name="title_activity_home_maps">HomeMapsActivity</string>
+</resources>

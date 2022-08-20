@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonorListActivity"
+    android:orientation="vertical"
+    android:weightSum="0"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/appColor1"
+        android:layout_weight="1"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/backBtn"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:foreground="?attr/selectableItemBackground"
+            android:background="@drawable/back_arrow"
+            android:backgroundTint="@color/white"
+            android:layout_alignParentStart="true"
+            android:layout_margin="8dp"
+            />
+
+        <TextView
+            android:id="@+id/UserName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_toEndOf="@id/backBtn"
+            android:gravity="center"
+            android:text="All Donor"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/allDonoRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9" />
+
+
+</LinearLayout>

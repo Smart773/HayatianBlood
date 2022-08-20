@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColor1"
+    tools:context=".SplashScreen">
+    <LinearLayout
+        android:id="@+id/LogoBlock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+    <ImageView
+        android:id="@+id/imgSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_logo"
+        />
+        <TextView
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/robotoregular"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HAYATIAN’S BLOOD DONATION\n
+MANAGMENT SYSTEM"
+            />
+    </LinearLayout>
+</LinearLayout>
