@@ -17,6 +17,7 @@
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable-anydpi/type_oplus.xml" value="0.1485" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable-anydpi/type_oplus_c.xml" value="0.1485" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.13" />
+        <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/back_button.xml" value="0.1485" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/button_selection.xml" value="0.1885" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/button_selection1.1.xml" value="0.1885" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/button_selection1.xml" value="0.1485" />
@@ -27,6 +28,7 @@
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/card_text_bg.xml" value="0.1485" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/check_box_abneg.xml" value="0.1485" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/check_box_abplus.xml" value="0.1485" />
+        <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/check_box_all.xml" value="0.1485" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/check_box_aneg.xml" value="0.1485" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/check_box_aplus.xml" value="0.1485" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/check_box_bg.xml" value="0.1485" />
@@ -43,10 +45,12 @@
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/type_abneg_c.xml" value="0.1485" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/type_abplus.xml" value="0.1485" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/type_abplus_c.xml" value="0.1485" />
+        <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/type_all.xml" value="0.1485" />
+        <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/type_all_c.xml" value="0.1485" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/type_aneg.xml" value="0.1485" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/drawable/type_aneg_c.xml" value="0.1485" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/layout/activity_donor_list_page.xml" value="0.32323232323232326" />
-        <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/layout/activity_home_maps.xml" value="0.4" />
+        <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/layout/activity_home_maps.xml" value="0.4140845070422535" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/layout/activity_login_page.xml" value="0.264" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Smart/AndroidStudioProjects/HayatianBlood/app/src/main/res/layout/activity_otp_verification_page.xml" value="0.264" />
